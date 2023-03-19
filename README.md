@@ -30,7 +30,7 @@ Criar funcionalidade de editar horas trabalhadas; <br/>
 Links de Deploy:  <br/>
 
 Front-end:  <br/>
-https://ilumeo-beta.vercel.app/ <br/>
+https://ilumeo-zeta.vercel.app// <br/>
 
 Back-end: <br/>
-https://ilumeo.onrender.com <br/>
+https://nodedeploy-api-5ez9.onrender.com <br/>

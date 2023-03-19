@@ -10,11 +10,7 @@ app.use(express.json());
 
 app.use(router);
 
-const corsOptions = {
-  origin: "https://ilumeo-beta.vercel.app",
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   if (err instanceof Error) {

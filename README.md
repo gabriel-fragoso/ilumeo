@@ -3,7 +3,7 @@
 
 </h5>No repositório localizar botão "Code", seguinte clicar no icone para copiar repositorio.<br/>
 No seu terminal utilizar git clone "link-que-copiou"<br/>
-Após isso, abrir pasta clonada, usar os seguintes comandos:<br/></h5>
+Após isso, abrir pasta clonada, usar os seguintes comandos:</h5><br/>
 
 `cd api` <br/>
 `yarn `<br/>

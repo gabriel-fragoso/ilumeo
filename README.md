@@ -9,7 +9,7 @@ cd api
 yarn
 yarn dev
 
-cd ..
+cd .. <br/>
 cd frontend
 yarn
 yarn build

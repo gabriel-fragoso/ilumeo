@@ -1,6 +1,7 @@
 // -- Third Imports -- //
 import prismaClient from "./prisma";
 import { Router } from "express";
+import { app } from "./server";
 import cors from "cors";
 
 // -- CONTROLLERS -- //
@@ -10,17 +11,18 @@ import { UpdatePointController } from "./controllers/point/UpdatePointController
 import { GetPointByUserController } from "./controllers/point/GetPointByUserController";
 
 const router = Router();
+app.use(cors());
 
 // -- Rotas Users -- //
-router.get("/users", async (req, res) => {
+router.get("/users", cors(), async (req, res) => {
   const users = await prismaClient.user.findMany();
   res.json(users);
 });
 
-router.post("/user", new CreateUserController().handle);
+router.post("/user", cors(), new CreateUserController().handle);
 
 // -- Rotas Points -- //
-router.get("/points", async (req, res) => {
+router.get("/points", cors(), async (req, res) => {
   const points = await prismaClient.point.findMany({
     include: {
       user: true,
@@ -29,10 +31,14 @@ router.get("/points", async (req, res) => {
   res.json(points);
 });
 
-router.post("/points", new CreatePointController().handle);
+router.post("/points", cors(), new CreatePointController().handle);
 
-router.put("/points/:id", new UpdatePointController().handle);
+router.put("/points/:id", cors(), new UpdatePointController().handle);
 
-router.get("/users/:userId/points", new GetPointByUserController().handle);
+router.get(
+  "/users/:userId/points",
+  cors(),
+  new GetPointByUserController().handle
+);
 
 export { router };

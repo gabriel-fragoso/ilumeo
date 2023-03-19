@@ -5,15 +5,15 @@
 No seu terminal utilizar git clone "link-que-copiou"<br/>
 Após isso, abrir pasta clonada, usar os seguintes comandos:<br/></h5>
 
-`cd api <br/>`
-`yarn <br/>`
-`yarn dev <br/>`
+`cd api` <br/>
+`yarn `<br/>
+`yarn dev` <br/>
 
-`cd .. <br/>`
-`cd frontend <br/>`
-`yarn <br/>`
-`yarn build <br/>`
-`yarn dev <br/>`
+`cd .. `<br/>
+`cd frontend`<br/>
+`yarn`<br/>
+`yarn build`<br/>
+`yarn dev>`<br/>
 
 <h3>Detalhes que poderiam ser acrescentados (minha opinião): <br/></h3>
 

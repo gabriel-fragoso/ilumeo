@@ -5,7 +5,7 @@
 No seu terminal utilizar git clone "link-que-copiou"<br/>
 Após isso, abrir pasta clonada, usar os seguintes comandos:</h5><br/>
 
-`cd api` <br/>
+</h5>`cd api` <br/>
 `yarn `<br/>
 `yarn dev` <br/>
 
@@ -13,7 +13,7 @@ Após isso, abrir pasta clonada, usar os seguintes comandos:</h5><br/>
 `cd frontend`<br/>
 `yarn`<br/>
 `yarn build`<br/>
-`yarn dev>`<br/>
+`yarn dev>`<br/></h5>
 
 <h3>Detalhes que poderiam ser acrescentados (minha opinião): <br/></h3>
 

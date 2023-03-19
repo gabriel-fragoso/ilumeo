@@ -26,3 +26,11 @@ Criar parte de comentário, onde a empresa pode comentar e questionar motivo de 
 Criar Private Route com JWT para apenas usuários logados consigam ter acesso ao Timelog (evitar erros); <br/>
 Criar area para justificar faltas; <br/>
 Criar funcionalidade de editar horas trabalhadas; <br/>
+
+Links de Deploy:  <br/>
+
+Front-end:  <br/>
+https://ilumeo-beta.vercel.app/ <br/>
+
+Back-end: <br/>
+https://ilumeo.onrender.com <br/>

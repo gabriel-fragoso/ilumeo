@@ -11,7 +11,6 @@ import { UpdatePointController } from "./controllers/point/UpdatePointController
 import { GetPointByUserController } from "./controllers/point/GetPointByUserController";
 
 const router = Router();
-app.use(cors());
 
 // -- Rotas Users -- //
 router.get("/users", cors(), async (req, res) => {

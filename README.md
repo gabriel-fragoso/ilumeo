@@ -5,21 +5,21 @@ No repositório localizar botão "Code", seguinte clicar no icone para copiar re
 No seu terminal utilizar git clone "link-que-copiou"
 Após isso, abrir pasta clonada, usar os seguintes comandos:
 
-cd api
-yarn
-yarn dev
+cd api <br/>
+yarn <br/>
+yarn dev <br/>
 
 cd .. <br/>
-cd frontend
-yarn
-yarn build
-yarn dev
+cd frontend <br/>
+yarn <br/>
+yarn build <br/>
+yarn dev <br/>
 
-Detalhes que poderiam ser acrescentados (minha opinião):
+Detalhes que poderiam ser acrescentados (minha opinião): <br/>
 
-Separar telas para login e cadastro;
-Criar tela de admin para a empresa ter controle e acesso as horas do funcionario;
-Criar parte de comentário, onde a empresa pode comentar e questionar motivo de não ter trabalhado ou algo do tipo;
-Criar Private Route com JWT para apenas usuários logados consigam ter acesso ao Timelog (evitar erros);
-Criar area para justificar faltas;
-Criar funcionalidade de editar horas trabalhadas;
+Separar telas para login e cadastro; <br/>
+Criar tela de admin para a empresa ter controle e acesso as horas do funcionario; <br/>
+Criar parte de comentário, onde a empresa pode comentar e questionar motivo de não ter trabalhado ou algo do tipo; <br/>
+Criar Private Route com JWT para apenas usuários logados consigam ter acesso ao Timelog (evitar erros); <br/>
+Criar area para justificar faltas; <br/>
+Criar funcionalidade de editar horas trabalhadas; <br/>

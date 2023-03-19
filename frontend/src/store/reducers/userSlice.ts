@@ -2,7 +2,7 @@ import { createReducer } from "@reduxjs/toolkit";
 import { setUserId } from "../actions/userSlice";
 
 interface UserState {
-  id: string | null;
+  id: any;
   code: string;
 }
 

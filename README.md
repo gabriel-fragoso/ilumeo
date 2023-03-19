@@ -1,11 +1,14 @@
 # ILUMEO
 <h3>Olá! Bem vindos ao projeto para o case da ILUMEO.  Meu nome é Gabriel Fragoso, estou feliz em participar deste case. Obrigado pela consideração e aguardo ansiosamente para discutir mais sobre minhas qualificações e como posso ser útil para a empresa.  Atenciosamente, Gabriel Fragoso.</h3>
 
-</h5>No repositório localizar botão "Code", seguinte clicar no icone para copiar repositorio.<br/>
+</h5>
+No repositório localizar botão "Code", seguinte clicar no icone para copiar repositorio.<br/>
 No seu terminal utilizar git clone "link-que-copiou"<br/>
-Após isso, abrir pasta clonada, usar os seguintes comandos:</h5><br/>
+Após isso, abrir pasta clonada, usar os seguintes comandos:<br/>
+</h5>
 
-</h5>`cd api` <br/>
+
+`cd api` <br/>
 `yarn `<br/>
 `yarn dev` <br/>
 
@@ -13,7 +16,7 @@ Após isso, abrir pasta clonada, usar os seguintes comandos:</h5><br/>
 `cd frontend`<br/>
 `yarn`<br/>
 `yarn build`<br/>
-`yarn dev>`<br/></h5>
+`yarn dev>`<br/>
 
 <h3>Detalhes que poderiam ser acrescentados (minha opinião): <br/></h3>
 

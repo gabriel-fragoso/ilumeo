@@ -1,0 +1,21 @@
+# Define a imagem base
+FROM node:14
+
+# Cria a pasta de trabalho do aplicativo
+WORKDIR /app
+
+# Copia o arquivo package.json para a pasta de trabalho
+COPY package*.json ./
+
+# Instala as dependências do aplicativo
+RUN yarn;\
+    yarn prisma generate
+
+# Copia o código-fonte do aplicativo para a pasta de trabalho
+COPY . .
+
+# Expõe a porta 3000 do contêiner
+EXPOSE 3000
+
+# Inicia o aplicativo
+ENTRYPOINT ["yarn", "run", "dev"]

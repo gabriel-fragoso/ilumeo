@@ -1,21 +1,21 @@
 # ILUMEO
-Olá! Bem vindos ao projeto para o case da ILUMEO.  Meu nome é Gabriel Fragoso, estou feliz em participar deste case. Obrigado pela consideração e aguardo ansiosamente para discutir mais sobre minhas qualificações e como posso ser útil para a empresa.  Atenciosamente, Gabriel Fragoso.
+<h3>Olá! Bem vindos ao projeto para o case da ILUMEO.  Meu nome é Gabriel Fragoso, estou feliz em participar deste case. Obrigado pela consideração e aguardo ansiosamente para discutir mais sobre minhas qualificações e como posso ser útil para a empresa.  Atenciosamente, Gabriel Fragoso.</h3>
 
-No repositório localizar botão "Code", seguinte clicar no icone para copiar repositorio.
-No seu terminal utilizar git clone "link-que-copiou"
-Após isso, abrir pasta clonada, usar os seguintes comandos:
+</h5>No repositório localizar botão "Code", seguinte clicar no icone para copiar repositorio.<br/>
+No seu terminal utilizar git clone "link-que-copiou"<br/>
+Após isso, abrir pasta clonada, usar os seguintes comandos:<br/></h5>
 
-cd api <br/>
-yarn <br/>
-yarn dev <br/>
+`cd api <br/>`
+`yarn <br/>`
+`yarn dev <br/>`
 
-cd .. <br/>
-cd frontend <br/>
-yarn <br/>
-yarn build <br/>
-yarn dev <br/>
+`cd .. <br/>`
+`cd frontend <br/>`
+`yarn <br/>`
+`yarn build <br/>`
+`yarn dev <br/>`
 
-Detalhes que poderiam ser acrescentados (minha opinião): <br/>
+<h3>Detalhes que poderiam ser acrescentados (minha opinião): <br/></h3>
 
 Separar telas para login e cadastro; <br/>
 Criar tela de admin para a empresa ter controle e acesso as horas do funcionario; <br/>
